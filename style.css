@@ -1,0 +1,4 @@
+body{margin:0;font-family:Arial;background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);color:#fff}
+.glass{background:rgba(255,255,255,.15);backdrop-filter:blur(12px);border-radius:20px;padding:20px;margin:20px}
+.swim{position:fixed;bottom:10px;left:-300px;animation:swim 12s linear infinite}
+@keyframes swim{to{left:100%}}
